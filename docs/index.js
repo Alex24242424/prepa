@@ -1,7 +1,7 @@
 function openSlideMenu() {
-  //let canHover = window.matchMedia('(hover: hover)').matches;
-  //if (canHover) {
-  if (innerWidth>700) {
+  let canHover = window.matchMedia('(hover: hover)').matches;
+  if (canHover) {
+  //if (innerWidth>700) {
     document.getElementById("side-menu").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
   } else {
@@ -10,9 +10,9 @@ function openSlideMenu() {
 }
 
 function closeSlideMenu() {
-  // let canHover = window.matchMedia('(hover: hover)').matches;
-  //if (canHover) {
-  if (innerWidth>700) {
+  let canHover = window.matchMedia('(hover: hover)').matches;
+  if (canHover) {
+  //if (innerWidth>700) {
     document.getElementById("side-menu").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
   } else {
@@ -45,10 +45,10 @@ document.write('\
 ');
 
 window.onload = function(){
-//let canHover = window.matchMedia("(hover: hover)").matches;
+  let canHover = window.matchMedia("(hover: hover)").matches;
 
-//if (canHover) {
-  if (innerWidth>700) {
+  if (canHover) {
+//if (innerWidth>700) {
     document.getElementById("doc").height = innerHeight - 80;
   } else {
     document.getElementById("doc").height = innerHeight - 160;
