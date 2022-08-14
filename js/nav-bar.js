@@ -6,12 +6,12 @@ document.write('\
       </a>\
     </div>\
     <div style="flex: 1"></div>\
-    <a href="/index.html"><img class="logo" src="/icones/etoile.svg" /></a>\
+    <a href="/"><img class="logo" src="/icones/etoile.svg" /></a>\
   </nav>\
   <div id="side-menu" class="side-nav">\
     <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>\
     <div class="liens">\
-    <a href="/index.html">Accueil</a>\
+    <a href="/">Accueil</a>\
     <a href="/sites/Maths/maths.html">Mathématiques</a>\
     <a href="/sites/Physique/physique.html">Physique</a>\
     <a href="/sites/IPT/IPT.html">I.P.T.</a>\
