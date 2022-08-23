@@ -9,7 +9,7 @@ phys = "https://drive.google.com/file/d/1FfThYkbLSx1CfPqJAZBCu0rLeK_mZhk0/previe
 // Maths
 
 supm1 = "https://drive.google.com/file/d/1fntRzuqVV8GJj62QKHeIZ1kVyR8tSnSV/preview"
-supm2 = ""
+supm2 = "https://drive.google.com/file/d/1IWMncDiJmyQqCWsk1c5H7bP1IviUE8VB/preview"
 supm3 = ""
 supm4 = ""
 supm5 = ""
